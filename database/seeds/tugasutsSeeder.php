@@ -26,10 +26,7 @@ class tugasutsSeeder extends Seeder
                 'kategori'=>'flasdisk',
                 'keterangan'=>'segala macam merk, ukuran flasdisk'
             ],
-            [
-                'kategori'=>'asdjasdjkashd',
-                'keterangan'=>'segala macam merk, ukuran flasdisk'
-            ]
+           
         ));
     }
 }
