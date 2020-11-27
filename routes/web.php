@@ -35,3 +35,5 @@ Route::get('/produk/showproduk','produkcontroller@showproduk');
 Route::get('/produks','latihanController@index');
 
 Route::get('/tugasuts','tugasutsController@tugasuts');
+
+Route::get('/prak9_01','Prak9Controller@QB_tugas1');
