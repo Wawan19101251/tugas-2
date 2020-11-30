@@ -12,7 +12,7 @@ class Prak9Controller extends Controller
         $JRekProduk = DB::table('produks')->count();
         $JRekProduk = DB::table('kategori')->count();
      
-        return view('paktikum9.tugas1', ['JRekproduk'=>$Jrekproduk,'JRekkategori'=>$JRekkategori]);
+    return view('paktikum9.tugas1', ['JRekproduk'=>$Jrekproduk,'JRekkategori'=>$JRekkategori]);
     }
 
 
